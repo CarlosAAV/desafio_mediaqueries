@@ -143,6 +143,36 @@ section{
 
 /*--------fin cards--------*/
 
+#footer-menu-size{
+    height: 60px;
+    
+
+
+}
+
+#footer-menu{
+    display: grid;
+    grid-template-columns: 15% 10% 10% 10% 15%;
+    margin-left: 100px;
+    
+}
+
+#footer-menu a{
+    border: solid black 1px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    color: black;
+    
+
+}
+
+#footer-menu a:hover{
+    background-color: #c9c1ac;
+}
+
 
 /*----footer------*/
 
@@ -208,7 +238,6 @@ main{
        margin-right: 50px;
     }
 
-
     main{
         min-height: 100vh;
         display: grid;
@@ -218,6 +247,23 @@ main{
       
         grid-template-rows: 90% auto; 
         grid-template-columns: 250px auto ;
+    }
+
+    #footer-menu{
+        display: grid;
+        grid-template-columns: 15% 10% 10% 10% 15%;
+        margin-left: 170px;
+        
+    }
+    
+    #footer-menu a{
+        border: solid black 1px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        color: black;
     }
 }
 
@@ -237,4 +283,22 @@ main{
         grid-template-columns: 30% 30% 30%;
         margin-left: 100px;
     }
+
+    #footer-menu{
+        display: grid;
+        grid-template-columns: 15% 10% 10% 10% 15%;
+        margin-left: 500px;
+        
+    }
+    
+    #footer-menu a{
+        border: solid black 1px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        color: black;
+    }
+    
 }
